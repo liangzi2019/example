@@ -25,6 +25,7 @@ set autowrite
 set number
 set mouse=nv
 set tabstop=4
+set encoding=utf-8
 set fencs=utf-8,GB18030,ucs-bom,default,latin1
 
 noremap <F3> :Autoformat<CR> "F3格式化C#快捷键
