@@ -51,6 +51,9 @@ let g:OmniSharp_highlight_types = 2
 let g:gofmt_command = "goimports"
 autocmd BufWritePre *.go :Fmt
 
+"文件树
+autocmd vimenter * NERDTree 
+
 " jj                  保存文件并留在插入模式 [插入模式]
 imap jj <ESC>:w<CR>li
 " kk                  返回Normal模式 插入模式
