@@ -1,0 +1,44 @@
+{
+    "update.mode": "none",
+    "window.zoomLevel": 1,
+    "http.proxySupport": "on",
+    //"http.proxy": "http://127.0.0.1:8118",
+    "files.autoGuessEncoding": true,
+    "workbench.editor.enablePreview": false,
+    "editor.fontSize": 17,
+    "editor.tabSize": 4,
+    "go.useLanguageServer": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-unknown-linux-gnu"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "rust.mode": "legacy",
+    "telemetry.enableCrashReporter": false,
+    "http.proxy": "https://goproxy.cn",
+    "update.showReleaseNotes": false,
+    "go.buildOnSave": "off",
+    "go.lintOnSave": "off",
+    "go.vetOnSave": "off",
+    "go.buildFlags": [],
+    "go.vetFlags": [],
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "gofmt",
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--disable=all"
+    ],
+    "go.formatFlags": [
+        "--disable=all"
+    ],
+    "telemetry.enableTelemetry": false,
+    "omnisharp.path": "/home/xuan/.omnisharp/omnisharp/",
+    "omnisharp.waitForDebugger": true,
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "[c]": {},
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
+}
